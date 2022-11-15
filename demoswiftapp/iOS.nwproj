@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<nw version="n45" generator="2.85.0">
+	<platform type="ios">
+		<buildTarget>demoswiftapp</buildTarget>
+		<useSchemeConfig>true</useSchemeConfig>
+		<buildConfig/>
+		<exportArchive>false</exportArchive>
+		<exportIPA>false</exportIPA>
+		<ipaAllowProvisioningUpdates>false</ipaAllowProvisioningUpdates>
+		<ipaPlistOptionFile/>
+		<signatureCheck>false</signatureCheck>
+		<extractSignatureFrom/>
+		<protectionMethod>1</protectionMethod>
+		<selectiveAnalysis>true</selectiveAnalysis>
+		<sourceRoot>.</sourceRoot>
+		<buildLocation>demoswiftapp.xcodeproj</buildLocation>
+		<analysisRoot>../demoswiftapp_analysis</analysisRoot>
+		<profilingRoot>../demoswiftapp_profiling</profilingRoot>
+		<protectedRoot>../demoswiftapp_protected</protectedRoot>
+		<frontendType>default</frontendType>
+		<profilingServerAddress>127.0.0.1</profilingServerAddress>
+		<profilingServerPort>26892</profilingServerPort>
+		<useCustomCommand>false</useCustomCommand>
+		<maxThreads>0</maxThreads>
+		<sourceProcessingThreads>0</sourceProcessingThreads>
+		<networkProfiling>true</networkProfiling>
+		<profilingFile>scp_profiling.nwprofile</profilingFile>
+		<deleteProfilingFile>true</deleteProfilingFile>
+		<silentProfiling>false</silentProfiling>
+		<customBuild/>
+		<excludeOutsideRoot>true</excludeOutsideRoot>
+		<pathFilterIncludePatterns>*.cpp;*.hpp;*.cxx;*.hxx;*.cc;*.hh;*.inl;*.c;*.h;*.m;*.mm;*.swift;*.bc</pathFilterIncludePatterns>
+		<pathFilterShowExcludedFiles>true</pathFilterShowExcludedFiles>
+		<debugLogging>0</debugLogging>
+		<traceLogging>0</traceLogging>
+		<protectionLevel>90</protectionLevel>
+		<encryptMetadata>false</encryptMetadata>
+		<compatibleWithEmbeddedBitcode>false</compatibleWithEmbeddedBitcode>
+		<globalStringObfuscation>true</globalStringObfuscation>
+		<casesPerSwitch>2048</casesPerSwitch>
+		<useRelocationChecksum>0</useRelocationChecksum>
+		<stripOutput>true</stripOutput>
+		<ignoreWerror>true</ignoreWerror>
+		<executeUpdateBinary>true</executeUpdateBinary>
+		<useProtectionSeed>false</useProtectionSeed>
+		<protectionSeed>0</protectionSeed>
+		<useProtectionSettingsSeed>0</useProtectionSettingsSeed>
+		<protectionSettingsSeed>0</protectionSettingsSeed>
+		<tamperCorruptStackWeight>1</tamperCorruptStackWeight>
+		<tamperCorruptStateWeight>1</tamperCorruptStateWeight>
+		<integrityCheck>
+			<codeStrength>5</codeStrength>
+			<dataStrength>5</dataStrength>
+			<callback use="true" action="CorruptExecution">demoswiftapp.MyCallbackContainer.integrityCallback</callback>
+		</integrityCheck>
+		<antiDebug>
+			<callback use="true" action="CorruptExecution">demoswiftapp.MyCallbackContainer.debuggerCallback</callback>
+			<useSafeAntiDebug>false</useSafeAntiDebug>
+		</antiDebug>
+		<jailbreakDetection>
+			<callback use="true" action="CorruptExecution">demoswiftapp.MyCallbackContainer.jailbreakCallback</callback>
+		</jailbreakDetection>
+		<swizzlingDetection>
+			<callback use="true" action="CorruptExecution">demoswiftapp.MyCallbackContainer.swizzlingCallback</callback>
+		</swizzlingDetection>
+		<threatReporting enabled="false">
+			<licenseKey/>
+			<bundleID/>
+			<onDiskKey/>
+			<userEmail/>
+			<appBundleID/>
+			<appVersion/>
+			<appOfficialVersion/>
+			<appName/>
+			<externalID1/>
+			<externalID2/>
+			<os/>
+			<arch/>
+		</threatReporting>
+		<group name="default" useDefaultGroupSettings="false">
+			<obfuscationCode>37</obfuscationCode>
+			<basicBlockStatements>100</basicBlockStatements>
+			<codeFlowDiversity>75</codeFlowDiversity>
+			<obfuscationVariables>30</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>37</blockStateObfuscation>
+			<dummyBlockStrength>15</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution">demoswiftapp.MyCallbackContainer.integrityCallback</callback>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>15</strength>
+				<callback use="0" action="CorruptExecution">demoswiftapp.MyCallbackContainer.debuggerCallback</callback>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="true">
+				<strength>15</strength>
+				<callback use="0" action="CorruptExecution">demoswiftapp.MyCallbackContainer.jailbreakCallback</callback>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="true">
+				<strength>15</strength>
+				<callback use="0" action="CorruptExecution">demoswiftapp.MyCallbackContainer.swizzlingCallback</callback>
+			</swizzlingDetection>
+		</group>
+		<group name="obfuscation" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>0</dummyBlockStrength>
+			<asmBlobStrength>0</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+		<group name="security" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>50</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>100</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="true">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="true">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+		<group name="speed" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>0</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>0</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+		<group name="__obfuscation" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>0</dummyBlockStrength>
+			<asmBlobStrength>0</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+		<group name="__security" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>50</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>true</staticFunctionInlining>
+			<maxInlinedBlocks>1000</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>100</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="true">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="true">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+		<group name="__speed" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>0</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>0</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<messageCallObfuscation>0</messageCallObfuscation>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<jailbreakDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</jailbreakDetection>
+			<swizzlingDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</swizzlingDetection>
+		</group>
+	</platform>
+</nw>
+

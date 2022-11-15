@@ -1,0 +1,86 @@
+Protection seed: '2878065551'
+WARN: Failed to find '/Users/srinivaspanda/Documents/development/Test/demoswiftapp/build' that was excluded from copying.
+Protecting - copying modified files to the protected folder...
+394 msec
+Protecting - running the source obfuscation process...
+WARN: Failed to find profiling data. The protected application may be slow.
+Protection settings seed: '2878065551'
+Protecting - building the protected source...
+Dropping marker information from the database... 
+Done.
+Getting data from additional databases... 
+Done.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00008103-000A04583A3B001E }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS Simulator, id:53C677D0-2988-4E85-A746-9B37171B1E80, OS:16.1, name:iPad (10th generation) }
+{ platform:iOS Simulator, id:4060136A-1962-432D-8144-CE0FD2603858, OS:16.1, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, id:40F4B7E2-971F-4F56-9BF0-FB413F4A7041, OS:16.1, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, id:0C2F3138-3AB6-4FA6-8427-9A2C1DE80002, OS:16.1, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, id:26E482F8-B1B3-4A64-A422-9424BE713D10, OS:16.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:329DDB12-739D-4568-83DB-ADA2FA212454, OS:16.1, name:iPhone 14 }
+{ platform:iOS Simulator, id:76B101E9-B1B0-40A9-AAAB-483165AEB146, OS:16.1, name:iPhone 14 Plus }
+{ platform:iOS Simulator, id:9F3137BE-E783-4A8F-8537-F86E2873780C, OS:16.1, name:iPhone 14 Pro }
+{ platform:iOS Simulator, id:C0298916-51E7-4236-A0E3-40CC79FC8721, OS:16.1, name:iPhone 14 Pro Max }
+{ platform:iOS Simulator, id:CA17FA7C-02B2-4A4B-9217-07A6FE184D14, OS:16.1, name:iPhone SE (3rd generation) }
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00008103-000A04583A3B001E }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS Simulator, id:53C677D0-2988-4E85-A746-9B37171B1E80, OS:16.1, name:iPad (10th generation) }
+{ platform:iOS Simulator, id:4060136A-1962-432D-8144-CE0FD2603858, OS:16.1, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, id:40F4B7E2-971F-4F56-9BF0-FB413F4A7041, OS:16.1, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, id:0C2F3138-3AB6-4FA6-8427-9A2C1DE80002, OS:16.1, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, id:26E482F8-B1B3-4A64-A422-9424BE713D10, OS:16.1, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:329DDB12-739D-4568-83DB-ADA2FA212454, OS:16.1, name:iPhone 14 }
+{ platform:iOS Simulator, id:76B101E9-B1B0-40A9-AAAB-483165AEB146, OS:16.1, name:iPhone 14 Plus }
+{ platform:iOS Simulator, id:9F3137BE-E783-4A8F-8537-F86E2873780C, OS:16.1, name:iPhone 14 Pro }
+{ platform:iOS Simulator, id:C0298916-51E7-4236-A0E3-40CC79FC8721, OS:16.1, name:iPhone 14 Pro Max }
+{ platform:iOS Simulator, id:CA17FA7C-02B2-4A4B-9217-07A6FE184D14, OS:16.1, name:iPhone SE (3rd generation) }
+**********************************************************************************
+                                     WARNING!
+**********************************************************************************
+You are running Xcode Command Line Tools version 14.1.0, which is above
+the currently supported version 14.0.255. Use this version at your own discretion.
+**********************************************************************************
+
+Clang location: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -project /Users/srinivaspanda/Documents/development/Test/demoswiftapp_protected/demoswiftapp.xcodeproj -scheme demoswiftapp -destination generic/platform=iOS -derivedDataPath /Users/srinivaspanda/Documents/development/Test/demoswiftapp_protected/build -IDEBuildOperationMaxNumberOfConcurrentCompileTasks=8 GCC_PRECOMPILE_PREFIX_HEADER=NO RUN_CLANG_STATIC_ANALYZER=NO MODULE_CACHE_DIR=/Users/srinivaspanda/Library/Developer/Xcode/DerivedData/ModuleCache.noindex STRIP_INSTALLED_PRODUCT=YES STRIP_SWIFT_SYMBOLS=YES DEBUG_INFORMATION_FORMAT=dwarf-with-dsym DEPLOYMENT_POSTPROCESSING=YES ENABLE_BITCODE=NO "SWIFT_EXEC=/Applications/Code Protection.app/Contents/MacOS/scp-bc-swiftc" "CC=/Applications/Code Protection.app/Contents/MacOS/scp-bc-clang" "CXX=/Applications/Code Protection.app/Contents/MacOS/scp-bc-clang++" "LD=/Applications/Code Protection.app/Contents/MacOS/scp-bc-ld" "LDPLUSPLUS=/Applications/Code Protection.app/Contents/MacOS/scp-bc-ld++" "LIPO=/Applications/Code Protection.app/Contents/MacOS/scp-bc-lipo"
+
+User defaults from command line:
+    IDEBuildOperationMaxNumberOfConcurrentCompileTasks = 8
+    IDEDerivedDataPathOverride = /Users/srinivaspanda/Documents/development/Test/demoswiftapp_protected/build
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    CC = /Applications/Code Protection.app/Contents/MacOS/scp-bc-clang
+    CXX = /Applications/Code Protection.app/Contents/MacOS/scp-bc-clang++
+    DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+    DEPLOYMENT_POSTPROCESSING = YES
+    ENABLE_BITCODE = NO
+    GCC_PRECOMPILE_PREFIX_HEADER = NO
+    LD = /Applications/Code Protection.app/Contents/MacOS/scp-bc-ld
+    LDPLUSPLUS = /Applications/Code Protection.app/Contents/MacOS/scp-bc-ld++
+    LIPO = /Applications/Code Protection.app/Contents/MacOS/scp-bc-lipo
+    MODULE_CACHE_DIR = /Users/srinivaspanda/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+    RUN_CLANG_STATIC_ANALYZER = NO
+    STRIP_INSTALLED_PRODUCT = YES
+    STRIP_SWIFT_SYMBOLS = YES
+    SWIFT_EXEC = /Applications/Code Protection.app/Contents/MacOS/scp-bc-swiftc
+
+Build Preparation
+Build task concurrency set to 8 via user default IDEBuildOperationMaxNumberOfConcurrentCompileTasks
+
+** CLEAN SUCCEEDED **
+
+Prepare packages
+
+Build Preparation
+Build task concurrency set to 8 via user default IDEBuildOperationMaxNumberOfConcurrentCompileTasks
+
+Computing target dependency graph and provisioning inputs
+
+> FAILURE
+
